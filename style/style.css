@@ -17,6 +17,11 @@ ol {
   display: flex;
   flex-direction: column;
 }
+.centering {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .modal-content {
   background: rgba(0, 0, 0, 0.8);
 }
@@ -79,8 +84,20 @@ ol {
   width: 100%;
   padding: 150px 0;
 }
+.main__info {
+  margin-bottom: 40px;
+}
 .main__title {
   margin-bottom: 30px;
+}
+.main .food__title {
+  font-size: 50px;
+  text-align: center;
+}
+.main .food__img {
+  display: flex;
+  justify-content: center;
+  align-items: top;
 }
 .menu {
   display: flex;
@@ -100,7 +117,7 @@ ol {
 .menu__foods {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 .menu__foods .menu__card {
   align-self: start;
@@ -121,7 +138,7 @@ ol {
 }
 .footer {
   background-color: #000;
-  padding: 10px 0;
+  padding: 30px 0 0;
 }
 .footer__container {
   display: flex;

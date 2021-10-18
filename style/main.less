@@ -1,5 +1,5 @@
 // main: style.less
-
+@import "vars.less"; 
 
 .main {
     display: block;
@@ -8,9 +8,27 @@
 
     padding: 150px 0;
 
+    &__info {
+        margin-bottom: 40px;
+    }
+
 
     &__title {
         margin-bottom: 30px;
+    }
+
+    // Starting the changes of pages
+    .food__title {
+        font-size: @mainFoodFontSize;
+        text-align: center;
+    }
+
+    .food__img {
+        display: flex;
+        justify-content: center;
+        align-items: top;
+
+        
     }
 }   
 
@@ -34,7 +52,7 @@
     &__foods {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-evenly;
 
         .menu__card {
             align-self: start;
