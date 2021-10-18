@@ -17,6 +17,9 @@ ol {
   display: flex;
   flex-direction: column;
 }
+.modal-content {
+  background: rgba(0, 0, 0, 0.8);
+}
 .header {
   position: fixed;
   top: 0;
@@ -87,7 +90,7 @@ ol {
 .menu .menu__link a:active,
 .menu .active-menu a {
   border-radius: 5px;
-  background-color: blue;
+  background-color: #3772f3;
   color: white;
 }
 .menu__link a {
