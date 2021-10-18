@@ -3,11 +3,6 @@
 @import "vars.less"; 
 
 
-.wrapper {
-    display: flex;
-    flex-direction: column;
-}
-
 .header {
     position: fixed;
     top: 0;
@@ -16,7 +11,7 @@
     padding: 15px 0; 
     box-shadow: 0 4px 10px -2px gray;
     z-index: 12;
-    background-color: @backColor;
+    background-color: rgba(@backColor, 1);
 
     &__container {
         display: flex;

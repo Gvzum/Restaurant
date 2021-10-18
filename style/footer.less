@@ -1,0 +1,50 @@
+// main: style.less
+
+@import "vars.less"; 
+
+.footer {
+    background-color: @backFooter; 
+    padding: 10px 0;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__info-block {
+        display: flex;
+        justify-content: space-around;
+        flex-basis: 80%;
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        .info__title {
+            font-size: @footerHeaderFontSize;
+            color: rgba(@footerListColor, .6)
+        }
+
+        .info__list {
+            color: rgba(@footerListColor, .3);
+            padding: 0;
+        }
+    }
+
+    &__socials {
+        width: 140px;
+        display: flex; 
+        flex-wrap: wrap;
+
+        .social__item {
+            margin-right: 13px;
+        }
+    }
+
+}
+
+#gray-svg {
+    fill: rgba(248, 230, 230, 0.534);
+}
