@@ -48,3 +48,25 @@
 #gray-svg {
     fill: rgba(248, 230, 230, 0.534);
 }
+
+@media @min993 {
+
+    .footer__container {
+        flex-direction: column;
+    }
+
+    .footer__info-block {
+        flex-direction: column;
+    }
+
+    .footer__socials {
+        flex-direction: row;
+        justify-content: flex-start;
+        padding: 0;
+
+        .social__item {
+            margin: 0 0 10px 10px; 
+            height: 20px;
+        }
+    }
+}
