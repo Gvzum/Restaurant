@@ -83,6 +83,9 @@ ol {
   justify-content: space-evenly;
   align-items: center;
 }
+.main__title-click {
+  display: none;
+}
 .hamburger {
   display: none;
   position: fixed;
@@ -99,6 +102,13 @@ ol {
   background-color: #101010;
 }
 @media (max-width: 993px) {
+  .main__title-click {
+    display: block;
+    text-align: center;
+  }
+  .main__title {
+    display: none;
+  }
   .header__links {
     position: fixed;
     left: -100%;

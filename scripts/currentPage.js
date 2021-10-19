@@ -10,7 +10,7 @@ $(document).ready(() => {
     }); 
 
     $('.menu-drop').hide(); 
-    $('.main__title').click(() => {
+    $('.main__title-click').click(() => {
             $('.menu-drop').toggle('slow'); 
     }); 
 })
